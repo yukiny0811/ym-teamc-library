@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "defaults",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/Defaults",
+      "state" : {
+        "revision" : "3efef5a28ebdbbe922d4a2049493733ed14475a6",
+        "version" : "7.3.1"
+      }
+    },
+    {
+      "identity" : "easy-string",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:yukiny0811/easy-string.git",
+      "state" : {
+        "revision" : "a71c5f182e13825b8dd410ef266b853792091d09",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "easy-utilities",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yukiny0811/easy-utilities",
+      "state" : {
+        "revision" : "b3859617384a21b5314c5fb01a4d4e9b9885afbc",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "sfsafesymbols",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SFSafeSymbols/SFSafeSymbols",
+      "state" : {
+        "revision" : "7cca2d60925876b5953a2cf7341cd80fbeac983c",
+        "version" : "4.1.1"
+      }
+    }
+  ],
+  "version" : 2
+}
