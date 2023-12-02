@@ -15,7 +15,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/yukiny0811/easy-utilities", from: "1.0.7")
+        .package(url: "https://github.com/yukiny0811/easy-utilities", from: "1.0.8")
     ],
     targets: [
         .target(
