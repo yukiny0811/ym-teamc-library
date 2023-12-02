@@ -44,7 +44,9 @@ public struct FarmListView<FarmDetailViewContent: View>: View {
                         farmDetailView(farm)
                             .navigationTitle(farm.name)
                     } label: {
-                        Image(systemSymbol: .tree)
+                        if #available(iOS 16.1, *) {
+                            Image(systemSymbol: .tree)
+                        }
                         Text(farm.name)
                     }
                     .frame(height: 40)
